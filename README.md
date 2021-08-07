@@ -1,2 +1,2 @@
 # mvvm_swift
-UOL Edtech  Dark Skye test in MVVM archteture iOS
+UOL Edtech  Dark Sky Swift test in MVVM archteture iOS
