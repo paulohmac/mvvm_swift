@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wjU-fh-8n9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TwCenMTStd-Light.otf">
+            <string>TwCenMTStd-Light</string>
+        </array>
+        <array key="tw-cen-classified-mt-std.otf">
+            <string>TwCenClassMTStd-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Now View Controller-->
+        <scene sceneID="nVl-Tf-gBm">
+            <objects>
+                <viewController storyboardIdentifier="nowViewController" id="wjU-fh-8n9" customClass="NowViewController" customModule="Dark_sky" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hus-E4-Hpy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sol" translatesAutoresizingMaskIntoConstraints="NO" id="lTQ-Tr-WOY">
+                                <rect key="frame" x="20" y="111" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="XkF-kO-nty"/>
+                                    <constraint firstAttribute="width" constant="160" id="afg-9s-OHS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Off Line" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="app-pL-MtN">
+                                <rect key="frame" x="205" y="137" width="189" height="109"/>
+                                <fontDescription key="fontDescription" name="TwCenMTStd-Light" family="Tw Cen MT Std" pointSize="30"/>
+                                <color key="textColor" red="0.98431372549019602" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcY-M2-7l1">
+                                <rect key="frame" x="52" y="279" width="310" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="Vbc-RK-fv7"/>
+                                    <constraint firstAttribute="width" constant="310" id="nDV-FS-V4P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TwCenClassMTStd-Regular" family="Tw Cen Classified MT Std" pointSize="80"/>
+                                <color key="textColor" red="0.98431372549999996" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KS-Yz-7xN">
+                                <rect key="frame" x="20" y="438" width="93" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="4GO-PF-8m8"/>
+                                    <constraint firstAttribute="width" constant="93" id="8qQ-fr-2ya"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TwCenMTStd-Light" family="Tw Cen MT Std" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5te-xA-mJU">
+                                <rect key="frame" x="20" y="463" width="110" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="6F8-Ul-xnQ"/>
+                                    <constraint firstAttribute="width" constant="110" id="aBf-h9-Gb2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TwCenMTStd-Light" family="Tw Cen MT Std" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTa-Fx-K8b">
+                                <rect key="frame" x="317" y="465" width="77" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="5XB-TS-3nW"/>
+                                    <constraint firstAttribute="height" constant="15" id="gSr-M7-anJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TwCenMTStd-Light" family="Tw Cen MT Std" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Umidade" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1D-w6-AI4">
+                                <rect key="frame" x="289" y="440" width="105" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="5Fs-4S-5Ph"/>
+                                    <constraint firstAttribute="width" constant="105" id="hcG-4k-rgh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TwCenMTStd-Light" family="Tw Cen MT Std" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofl-iA-o36">
+                                <rect key="frame" x="344" y="796" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="3n3-rK-irp"/>
+                                    <constraint firstAttribute="height" constant="50" id="BBG-ga-SQS"/>
+                                </constraints>
+                                <state key="normal" image="next"/>
+                                <connections>
+                                    <action selector="openWeekScreen:" destination="wjU-fh-8n9" eventType="touchUpInside" id="rUz-e3-JVs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8i-Qu-GBm">
+                                <rect key="frame" x="112.5" y="780" width="189" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="ggY-kh-SqJ"/>
+                                    <constraint firstAttribute="width" constant="189" id="hs3-7b-5Y3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TwCenClassMTStd-Regular" family="Tw Cen Classified MT Std" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.12549019607843137" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="D1D-w6-AI4" firstAttribute="top" secondItem="OcY-M2-7l1" secondAttribute="bottom" constant="51" id="1eF-WR-qA2"/>
+                            <constraint firstItem="lTQ-Tr-WOY" firstAttribute="leading" secondItem="uVW-D9-S4F" secondAttribute="leading" constant="20" id="9qn-8y-Me7"/>
+                            <constraint firstItem="uVW-D9-S4F" firstAttribute="trailing" secondItem="Ofl-iA-o36" secondAttribute="trailing" constant="20" id="KXu-z8-vta"/>
+                            <constraint firstItem="lTQ-Tr-WOY" firstAttribute="top" secondItem="uVW-D9-S4F" secondAttribute="top" constant="67" id="Qka-mJ-fBO"/>
+                            <constraint firstItem="OcY-M2-7l1" firstAttribute="centerX" secondItem="hus-E4-Hpy" secondAttribute="centerX" id="RuI-6P-9gJ"/>
+                            <constraint firstItem="app-pL-MtN" firstAttribute="top" secondItem="uVW-D9-S4F" secondAttribute="top" constant="93" id="WzC-CY-6eg"/>
+                            <constraint firstItem="1KS-Yz-7xN" firstAttribute="leading" secondItem="uVW-D9-S4F" secondAttribute="leading" constant="20" id="Xhu-xu-zFa"/>
+                            <constraint firstItem="uVW-D9-S4F" firstAttribute="trailing" secondItem="D1D-w6-AI4" secondAttribute="trailing" constant="20" id="ffB-PZ-Hd6"/>
+                            <constraint firstItem="uVW-D9-S4F" firstAttribute="bottom" secondItem="T8i-Qu-GBm" secondAttribute="bottom" constant="62" id="hcT-QG-cqn"/>
+                            <constraint firstItem="1KS-Yz-7xN" firstAttribute="top" secondItem="OcY-M2-7l1" secondAttribute="bottom" constant="49" id="jjX-Ca-OsM"/>
+                            <constraint firstItem="OcY-M2-7l1" firstAttribute="top" secondItem="lTQ-Tr-WOY" secondAttribute="bottom" constant="8" id="ms5-Ih-dTH"/>
+                            <constraint firstItem="uVW-D9-S4F" firstAttribute="trailing" secondItem="VTa-Fx-K8b" secondAttribute="trailing" constant="20" id="n1f-DM-Npj"/>
+                            <constraint firstItem="VTa-Fx-K8b" firstAttribute="top" secondItem="D1D-w6-AI4" secondAttribute="bottom" constant="8" id="rVc-Mk-CHc"/>
+                            <constraint firstItem="T8i-Qu-GBm" firstAttribute="centerX" secondItem="hus-E4-Hpy" secondAttribute="centerX" id="rub-Iv-Sba"/>
+                            <constraint firstItem="Ofl-iA-o36" firstAttribute="bottom" secondItem="uVW-D9-S4F" secondAttribute="bottom" constant="-16" id="rw2-JI-g1r"/>
+                            <constraint firstItem="uVW-D9-S4F" firstAttribute="trailing" secondItem="app-pL-MtN" secondAttribute="trailing" constant="20" id="v4x-p4-mjM"/>
+                            <constraint firstItem="app-pL-MtN" firstAttribute="leading" secondItem="lTQ-Tr-WOY" secondAttribute="trailing" constant="25" id="wnV-l6-fHk"/>
+                            <constraint firstItem="5te-xA-mJU" firstAttribute="top" secondItem="1KS-Yz-7xN" secondAttribute="bottom" constant="8" id="x18-cv-5x6"/>
+                            <constraint firstItem="5te-xA-mJU" firstAttribute="leading" secondItem="uVW-D9-S4F" secondAttribute="leading" constant="20" id="yhR-VR-eJz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uVW-D9-S4F"/>
+                    </view>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="currentDateLbl" destination="T8i-Qu-GBm" id="eNR-Q0-fny"/>
+                        <outlet property="humidityLBl" destination="VTa-Fx-K8b" id="uA9-U3-d7D"/>
+                        <outlet property="temperatureLbl" destination="OcY-M2-7l1" id="duz-Wx-Awx"/>
+                        <outlet property="weatherDescriptionLbl" destination="app-pL-MtN" id="iVs-bz-VVl"/>
+                        <outlet property="weatherImg" destination="lTQ-Tr-WOY" id="B65-sT-7ok"/>
+                        <outlet property="windSpeedLbl" destination="5te-xA-mJU" id="vuN-da-IrX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwz-eO-MOl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2059.4202898550725" y="-951.5625"/>
+        </scene>
+        <!--Week View Controller-->
+        <scene sceneID="fFC-1R-7ba">
+            <objects>
+                <viewController storyboardIdentifier="weekViewController" id="Rqa-9Y-cVH" customClass="WeekViewController" customModule="Dark_sky" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fMh-P0-d2X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wc0-OD-eiL">
+                                <rect key="frame" x="20" y="797" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="XUS-0s-yyh"/>
+                                    <constraint firstAttribute="height" constant="50" id="nmq-VS-ofi"/>
+                                </constraints>
+                                <state key="normal" image="back"/>
+                                <connections>
+                                    <action selector="openNowScreen:" destination="Rqa-9Y-cVH" eventType="touchUpInside" id="znK-Zu-pUh"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="3" sectionFooterHeight="3" translatesAutoresizingMaskIntoConstraints="NO" id="USa-xc-WDE">
+                                <rect key="frame" x="9" y="100" width="397" height="675"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dailyWeatherCell" rowHeight="96" id="Pwd-nz-65v">
+                                        <rect key="frame" x="0.0" y="55.5" width="397" height="96"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pwd-nz-65v" id="gxu-V3-crg">
+                                            <rect key="frame" x="0.0" y="0.0" width="397" height="96"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C6I-4i-8AB">
+                                                    <rect key="frame" x="20" y="18" width="60" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Temperatura" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFd-77-OCz">
+                                                    <rect key="frame" x="91" y="18" width="266" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="TwCenClassMTStd-Regular" family="Tw Cen Classified MT Std" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Umidade" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFr-Es-g0O">
+                                                    <rect key="frame" x="91" y="61" width="82" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="TwCenMTStd-Light" family="Tw Cen MT Std" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="90%" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wu-fc-o8V">
+                                                    <rect key="frame" x="179" y="61" width="81" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="TwCenMTStd-Light" family="Tw Cen MT Std" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Umidade" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnW-o2-klm">
+                                                    <rect key="frame" x="91" y="39" width="266" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="TwCenMTStd-Light" family="Tw Cen MT Std" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.12549019610000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Rqa-9Y-cVH" id="FyR-B8-R73"/>
+                                    <outlet property="delegate" destination="Rqa-9Y-cVH" id="6t7-BX-FR1"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Previsão da semana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHn-AT-Uxb">
+                                <rect key="frame" x="82" y="72" width="250" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="OId-ff-jAM"/>
+                                    <constraint firstAttribute="height" constant="20" id="b6z-t2-eaG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TwCenClassMTStd-Regular" family="Tw Cen Classified MT Std" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.12549019607843137" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YTP-6x-epk" firstAttribute="trailing" secondItem="USa-xc-WDE" secondAttribute="trailing" constant="8" id="7iN-p6-O01"/>
+                            <constraint firstItem="USa-xc-WDE" firstAttribute="top" secondItem="YTP-6x-epk" secondAttribute="top" constant="56" id="Jia-os-Vbt"/>
+                            <constraint firstItem="Wc0-OD-eiL" firstAttribute="leading" secondItem="YTP-6x-epk" secondAttribute="leading" constant="20" id="T49-VJ-67e"/>
+                            <constraint firstItem="Wc0-OD-eiL" firstAttribute="bottom" secondItem="YTP-6x-epk" secondAttribute="bottom" constant="-15" id="awH-ub-fWW"/>
+                            <constraint firstItem="Wc0-OD-eiL" firstAttribute="top" secondItem="USa-xc-WDE" secondAttribute="bottom" constant="22" id="bmi-JT-zDg"/>
+                            <constraint firstItem="USa-xc-WDE" firstAttribute="leading" secondItem="YTP-6x-epk" secondAttribute="leading" constant="9" id="iCa-wo-JY6"/>
+                            <constraint firstItem="UHn-AT-Uxb" firstAttribute="top" secondItem="YTP-6x-epk" secondAttribute="top" constant="28" id="jb4-XW-Vxv"/>
+                            <constraint firstItem="UHn-AT-Uxb" firstAttribute="centerX" secondItem="fMh-P0-d2X" secondAttribute="centerX" id="yBH-Gr-eTJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YTP-6x-epk"/>
+                    </view>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="weekConditionsTableView" destination="USa-xc-WDE" id="Z2f-Nz-hwo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Am4-89-C3E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1359.4202898550725" y="-952.23214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="100" height="100"/>
+        <image name="next" width="100" height="100"/>
+        <image name="sol" width="512" height="512"/>
+    </resources>
+</document>
